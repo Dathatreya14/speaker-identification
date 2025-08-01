@@ -4,9 +4,9 @@ import numpy as np
 from sklearn.mixture import GaussianMixture
 
 #for each speaker, set the source to the directory as the speakers audio dataset directory
-source = "C:\\Users\\Muhammad Ramzan LLC\\Desktop\\draft code\\features\\person 3 features"
+source = "it consists of the directory of the npy files"
 
-dest = "C:\\Users\\Muhammad Ramzan LLC\\Desktop\\draft code\\gmm files"
+dest = "directory where the the drained gmm files will get stored"
 
 feature_files = [f for f in os.listdir(source) if f.endswith('.npy') or f.endswith('.pkl')]
 
