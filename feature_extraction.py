@@ -29,8 +29,8 @@ def extract_features(audio, rate):
     combined = np.hstack((mfcc_feature, delta)) 
     return combined
 
-input_dir = "C:\\Users\\Muhammad Ramzan LLC\\Desktop\\draft code\\input audio\\person 3 audio files"
-output_dir = "C:\\Users\\Muhammad Ramzan LLC\\Desktop\\draft code\\features\\person 3 features"
+input_dir = "it consists of the directory loaction where the input audio files are stored"
+output_dir = "this is the directory where the mfcc values will be stored/saved"
 
 os.makedirs(output_dir, exist_ok=True)
 
