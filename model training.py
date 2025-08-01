@@ -30,7 +30,7 @@ gmm.fit(features)
 
 
 speaker_name = file.split("_")[0]  
-gmm_filename = os.path.join(dest, f"{speaker_name}.gmm")  # Save as .gmm without adding .pkl
+gmm_filename = os.path.join(dest, f"{speaker_name}.gmm")
 
 with open(gmm_filename, 'wb') as f:
     pickle.dump(gmm, f)
