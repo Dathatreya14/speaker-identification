@@ -1,0 +1,22 @@
+|
+|--dataset/--person1 audio files/
+|          --person2 audio files/
+|          --person3 audio files/
+|
+|
+|==feature_extraction.py
+|
+|--npy data/ --person1.npy
+|            --person2.npy
+|            --person3.npy
+|
+|
+|
+|--model training.py
+|
+|--gmm files/ --person1.gmm
+|             --person2.gmm
+|             --person3.gmm
+|
+|
+|--testing code.py
